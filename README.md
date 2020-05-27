@@ -37,6 +37,11 @@ This repo illustrates different ways to use Deno permissions.
    ```
    deno run --unstable https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/serve-context.ts
    ```
+   
+ * serve-reason.ts
+ 
+   Proposed improvement to Deno that lets you pass in a `reason` string explaining
+   why you are requesting permission. Not runnable because it’s a proposal.
  
 ## Other samples
 
