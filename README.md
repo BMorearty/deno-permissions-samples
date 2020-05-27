@@ -4,7 +4,8 @@ This repo illustrates different ways to use Deno permissions.
 
 * serve-original.ts
 
-  This is the original web server example from https://deno.land/v1
+  This is the original web server example from https://deno.land/v1. It just runs
+  a server without asking for net permission.
 
   ```
   deno run --allow-net https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/serve-original.ts
@@ -12,7 +13,7 @@ This repo illustrates different ways to use Deno permissions.
 
 * serve-request.ts
 
-  A better paradigm that allows the user to grant permission at runtime
+  Illustrates a better paradigm that allows the user to grant permission at runtime
   instead of requiring them to grant it on the command line
   (but also allows command line grant).
 
