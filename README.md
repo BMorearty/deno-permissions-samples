@@ -27,6 +27,16 @@ This repo illustrates different ways to use Deno permissions.
   ```
   deno run --unstable --allow-net https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/serve-request.ts
   ```
+  
+ * serve-context.ts
+ 
+   Better still is to give the user some context right before asking for permission.
+   But to do this, you need to first query if the permission has already been granted.
+   
+   ```
+   deno run --unstable https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/serve-context.ts
+   ```
+ 
 ## Other samples
 
 * request-twice.ts
