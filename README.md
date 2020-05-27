@@ -27,3 +27,13 @@ This repo illustrates different ways to use Deno permissions.
   ```
   deno run --unstable --allow-net https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/serve-request.ts
   ```
+## Other samples
+
+* request-twice.ts
+
+  Demonstrates that if you request the same permission multiple times during a single run,
+  Deno remembers the first answer. Try running this and either granting or denying permission:
+  
+  ```
+  deno run --unstable https://raw.githubusercontent.com/BMorearty/deno-permissions-samples/master/request-twice.ts
+  ```
