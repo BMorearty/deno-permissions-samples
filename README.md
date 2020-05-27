@@ -2,6 +2,8 @@
 
 This repo illustrates different ways to use Deno permissions.
 
+To understand these samples better, see my blog post on Better Deno Security: Ask for Permission at Runtime.
+
 * serve-original.ts
 
   This is the original web server example from https://deno.land/v1. It just runs
