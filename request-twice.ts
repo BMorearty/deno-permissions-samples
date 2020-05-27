@@ -1,5 +1,4 @@
-import { serve } from "https://deno.land/std@0.50.0/http/server.ts";
-
+// request-twice.ts
 const netPermission1 = await Deno.permissions.request({ name: "net" });
 console.log(
   `The first permission request returned ${JSON.stringify(netPermission1)}`,
